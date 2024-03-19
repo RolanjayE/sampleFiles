@@ -1,0 +1,28 @@
+.wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid > div {
+    margin-top: 150px;
+}
+
+.column {
+    padding-top: 5rem;
+}
+
+.column p {
+    color: rgb(126, 121, 121);
+}
+
+.about-me button{
+    background-color: black;
+    position: fixed;
+}
+
